@@ -1,0 +1,238 @@
+
+
+@media only screen and (max-width: 480px) {
+    body{
+        color: #eaeaea;
+    }
+    main{
+    width: 100%;   
+    height: 2000px;
+    background-image: url("img/bg.png");
+    background-size: 100%;
+/*    background-attachment: fixed;*/
+    background-repeat: no-repeat;
+}
+  
+    .logo{
+        display: inline-block;
+        position: relative;
+        
+    }
+    
+    .yellow{
+        color: #bdc476;
+    }
+    span{
+        font-weight: inherit;
+    }
+
+   
+    .burger {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    
+    }
+    .allBurgers{
+        display: inline;
+        position: absolute;
+        margin-top: 10px;
+        
+    }
+    
+    ol{
+        display: none;
+        list-style-type:none;
+        margin: 2px;
+        text-align: left;
+        
+    }
+    ol a {
+        
+        text-decoration:none;
+        color: #000;
+    }
+    
+    ol>li {
+        margin: 2px;
+    }
+    ol>li>ul>li{
+        margin: 2px;
+    }
+      
+    .inline {
+    display: inline;
+}
+    
+}
+    
+/*FOR DESKOPT*/
+@media only screen  and (min-width: 480px){
+ main{
+    width: 100%;   
+    height: 2000px;
+    background-image: url("img/bg.png");
+    background-size: 100%;
+/*    background-attachment: fixed;*/
+    background-repeat: no-repeat;
+}
+    
+
+.allBurgers{
+        display:none;
+    }
+    
+nav{
+    margin-top: 40px;
+    display: inline-block;
+    background: #fff;
+    width: 100%;
+    height: 100px;
+   
+}
+.yellow{
+        color: #bdc476;
+    }
+ span{
+        font-style: italic;
+    }
+    
+.logo{
+    display: inline;
+    float: left;
+    margin:-10px;
+}
+
+.inline{
+    display: inline;
+    margin: 2px;
+}
+
+.center{
+    float:right;
+}
+.allBurgers{
+    display: none;
+}
+
+    ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        background-color:#FFF;
+        font-size:18px;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+        display: inline;
+        color: #999999;
+      }
+    
+
+
+      ol a {
+        display:block;
+        text-decoration:none;
+        padding:0 5px;
+        color: #999999;
+      }
+        
+  
+      
+      ol > li {
+        float:left;
+        width:150px;
+        margin-left:1px;
+        background-color:#fff;
+        height:2em;
+        
+      }
+
+      
+      ol > li:first-child {
+        margin-left:0;
+      }
+
+     
+      ol > li:hover {
+        background-color:#fff;
+        color: #bdc476;
+      }
+
+      
+      ol > li:hover > a {
+        color: #bdc476;
+        display:block;  
+      }
+    
+    
+          
+    ol > li:hover > ul {
+        display:block;
+        color: #bdc476;
+        
+      }
+    
+    
+    
+    ol > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        padding-top: 20px;
+      }
+
+   
+      ol > li > ul > li {
+        position:relative;
+        background-color:#fff;
+        
+      }
+
+     
+     
+      ol > li > ul > li:hover {
+        background-color:#fff;
+      }
+
+      
+      ol > li > ul > li:hover > a {
+        color:#bdc476;
+      }
+    .pictMenu {
+        display: inline;
+    }
+
+
+      ol a:hover::after{
+        content: "  ";
+        border-bottom: 2px solid #bdc476;
+        width: 50px;
+        height: 0.5px;
+        display: block;
+        margin:auto;
+        z-index: 200;
+    }
+
+
+       
+    ol>li>ul::after{
+        content: url(img/skirt.png);
+        position:absolute;
+        top: 103px;
+        left: 330px;
+        
+    }
+
+    
+}
+
+
+      
+
+
+
+
+
